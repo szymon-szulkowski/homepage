@@ -6,4 +6,4 @@ The following YouCode modules have been used:
 - Module 3
 - Module 4
 - Module 5
-![HOMEPAGE](/HOMEPAGE.png)
+![HOMEPAGE](/homepageImage.png)
