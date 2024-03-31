@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, itablenitial-scale=1.0">
+    <title>Moduł 4 Szymon Szulkowski</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/darkTheme.css" rel="stylesheet">
+    <link href="CSS/list.css" rel="stylesheet">
+    <script defer src="JS/script.js"></script>
+
+</head>
+
+<body class="strona">
+    <header class="strona__header" id="tytul">
+
+        <h1> Praca domowa - Moduł 4 </h1>
+    </header>
+    <nav>
+        <ul class="list">
+            <li class="list__element">
+                Skróty:
+                <ul>
+                    <li class="list__element">
+                        <a class="link" href="#tytul"> Tytuł </a>
+                    </li>
+                    <li class="list__element">
+                        <a class="link" href="#wstep"> Wstęp </a>
+                    </li>
+                    <li class="list__element">
+                        <a class="link" href="#lista"> Lista utworów </a>
+                    </li>
+                    <li class="list__element">
+                        <a class="link" href="#przycisk"> Zmiana motywu </a>
+                    </li>
+                    <li class="list__element">
+                        <a class="link" href="#footer"> Autor </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="wstep" id="wstep"> Dzień Dobry, przedstawiam pracę domową z modułu 3 oraz 4. Ograniczyłem szerokość strony,
+            dodałem alternatywny box model, oraz ładną tabelę zawierającą najbardziej popularne piosenki na spotify.
+            Oprócz tego dodałem do strony sekcje i nawigację po nich, wraz ze stylami, odstępami, i interakcję, w formie
+            przycisku zmieniającego motyw. W ramach kolejnej pracy domowej dodałem normalize.css oraz zrobiłem refactoring strony zgodnie z konwencją BEM.</h2>
+
+        <div class="container">
+            <table class="container__table" id="lista">
+                <caption class="table__caption">Najpopularniejsze piosenki na spotify:</caption>
+                <tr class=tableRow>
+                    <th class="tableCell tableCell__Header" scope="col">Tytuł</th>
+                    <th class="tableCell tableCell__Header" scope="col">Wykonawca</th>
+                    <th class="tableCell tableCell__Header" scope="col">Album</th>
+                    <th class="tableCell tableCell__Header" scope="col">Streamy (miliardy)</th>
+                </tr>
+                <tr class=tableRow>
+                    <th class="tableCell" scope="row">Blinding Lights</th>
+                    <td class="tableCell"> The Weeknd</td>
+                    <td class="tableCell"> After Hours</td>
+                    <td class="tableCell"> 3,484 </td>
+                </tr>
+                <tr class=tableRow>
+                    <th class="tableCell" scope="row">Shape of You</th>
+                    <td class="tableCell">Ed Sheeran</td>
+                    <td class="tableCell">brak</td>
+                    <td class="tableCell"> 3,419 </td>
+                </tr>
+                <tr class=tableRow>
+                    <th class="tableCell" scope="row">Dance Monkey</th>
+                    <td class="tableCell">Tones and I</td>
+                    <td class="tableCell">The Kids Are Coming</td>
+                    <td class="tableCell"> 2,782 </td>
+                </tr>
+                <tr class=tableRow>
+                    <th class="tableCell" scope="row">Someone You Loved</th>
+                    <td class="tableCell">Lewis Capaldi</td>
+                    <td class="tableCell">Divinely Uninspired to a Hellish Extent</td>
+                    <td class="tableCell"> 2,706 </td>
+                </tr>
+                <tr class=tableRow>
+                    <th class="tableCell" scope="row">Rockstar</th>
+                    <td class="tableCell">Post Malone i 21 Savage</td>
+                    <td class="tableCell">Beerbongs & Bentleys</td>
+                    <td class="tableCell"> 2,634 </td>
+                </tr>
+
+
+
+
+
+            </table>
+        </div>
+
+
+
+
+        <button class="button" id="przycisk">Włącz ciemny motyw
+        </button>
+
+
+
+
+    </main>
+
+    <footer class="footer" id="footer"> Przygotował Szymon Szulkowski</footer>
+
+</body>
