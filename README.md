@@ -1,3 +1,3 @@
 # Dzień Dobry!
-## Witam na moim projekcie
- **Homepage**
+## Przeglądasz plik dotyczący prac domowych
+Tematem tej pracy jest: **Homepage**
