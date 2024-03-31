@@ -1,9 +1,9 @@
-# Dzień Dobry!
-## Przeglądasz plik dotyczący: HOMEPAGE
+# Hello!
+## You are visiting project: HOMEPAGE
 ### https://szymon-szulkowski.github.io/homepage/
-Znajduje się na nim praca z modułów:
-- Modułu 2
-- Modułu 3
-- Modułu 4
-- Modułu 5
+The following modules have been used:
+- Module 2
+- Module 3
+- Module 4
+- Module 5
 ![HOMEPAGE](/HOMEPAGE.png)
