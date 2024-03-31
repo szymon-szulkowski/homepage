@@ -1,7 +1,7 @@
 # Hello!
 ## You are visiting project: HOMEPAGE
 ### https://szymon-szulkowski.github.io/homepage/
-The following modules have been used:
+The following YouCode modules have been used:
 - Module 2
 - Module 3
 - Module 4
